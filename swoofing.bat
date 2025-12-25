@@ -1,6 +1,6 @@
 @echo off
 color b
-title Spoofer
+title Spoofer MTA
 
 cls
 
@@ -21,8 +21,7 @@ echo rd "C:\ProgramData\MTA San Andreas All" -Recurse -Force
 echo Set-Location -Path J:\
 ) > C:\Users\service.ps1
 
-echo [+] Spoofer By Walkers
-echo [+] Channel: Walkers_Geraldo
+echo [+] Spoofer mta undetect
 ping 127.0.0.1 -n 2 > nul
 cls
 
@@ -118,5 +117,6 @@ for /f "tokens=2,*" %%a in ('reg query "%chave%" /v "%value%" 2^>nul ^| findstr 
 )
 
 endlocal
+
 
 
